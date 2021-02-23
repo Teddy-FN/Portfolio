@@ -1,11 +1,12 @@
-import React, {useContext} from "react";
+/* eslint-disable jsx-a11y/iframe-has-title */
+import React, { useContext } from "react";
 import "./Podcast.css";
-import {podcastSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { podcastSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!podcastSection.display) {
     return null;
   }
