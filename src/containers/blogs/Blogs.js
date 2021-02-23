@@ -1,11 +1,11 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Blog.css";
 import BlogCard from "../../components/blogCard/BlogCard";
-import {blogSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { blogSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!blogSection.display) {
     return null;
   }

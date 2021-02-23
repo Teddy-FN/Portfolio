@@ -9,28 +9,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Teddy Ferdian.A.A",
+  title: "Hi all, I'm Teddy",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Front end Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1-ccJUqZ8VAZAZ8t__nTwcfrDs3Jzuzye/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  github: "https://github.com/Teddy-FN",
+  linkedin: "https://www.linkedin.com/in/teddy-ferdian-abrar-amrullah-852aa5178/",
+  gmail: "contact@tedd.ferdy.com",
+  gitlab: "https://gitlab.com/Teddy-FN",
+  facebook: "https://www.facebook.com/profile.php?id=100051266324589",
+  // instagram: 'https://www.instagram.com/davidrakosi/',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,12 +35,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Responsive Design on web Applications"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
@@ -62,12 +60,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "Code Igniter",
+      fontAwesomeClassname: "fab fa-free-code-camp"
     },
     {
       skillName: "reactjs",
@@ -78,21 +80,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     }
+    // ,{
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -100,50 +98,53 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Glints Academy",
+      logo: require("./assets/images/GA.png"),
+      subHeader: "Front End Developer",
+      duration: "November 2020 - February 2021",
+      desc: "Activities and Societies: learn built some apps and website",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        'HTML, CSS, and JavaScript technology to create responsive websites',
+        'ReactJS framework for building frontends',
+        'A wide variety of application architecture and information structure (MVR) designs',
+        'Optimized Redux to create a consistent and flexible web on any platform',
+        'Using CI / CD for development and deployment automation',
+        'Implementing the Agile method in making websites',
+        'Soft skill abilities'
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Academy Technology Warga Surakarta",
+      logo: require("./assets/images/ATW.png"),
+      subHeader: "Associate Degree of Mechanical Industry",
+      duration: "September 2016 - November 2019",
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "90%"
-    }
-  ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
+// const techStack = {
+//   viewSkillBars: true, //Set it to true to show Proficiency Section
+//   experience: [
+//     {
+//       Stack: "Frontend / Design", //Insert stack or technology you have experience in
+//       progressPercentage: "90%" //Insert relative proficiency in percentage
+//     },
+//     {
+//       Stack: "Backend",
+//       progressPercentage: "70%"
+//     },
+//     {
+//       Stack: "Programming",
+//       progressPercentage: "90%"
+//     }
+//   ],
+//   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+// };
 
 // Work experience section
 
@@ -151,34 +152,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Front End Developer",
+      company: "Glints Academy",
+      companylogo: require("./assets/images/GA.png"),
+      date: "November, 2020 - February, 2021",
       desc:
         "Changing lives of developers one line of code at a time.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        'Learn HTML,CSS,Javascript, Git, GitLab,React JS, CI/CD, heroku / netlify for the deploying.',
+        'Build a Mini Product in Mini Project in a Team with three stack Back End, Front End, and React Native (Movie Review) Role in this project: Team Lead, Stack Lead Front End.',
+        'Build a Product in Final Project in a Team with another stack Back End, Front End, and React Native (SOKA) Role in this Project: Stack Lead Front End'
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+      role: "Full Stack PHP Developer - (CodeIgniter)",
+      company: "Rachacha Indonesia",
+      companylogo: require("./assets/images/Rachacha.png"),
+      date: "October 2020 – November 2020",
+      descBullets: [
+        'Colaborating some team Programmer.',
+        'build websites data all employers in Rachacha using CodeIgniter.',
+        'Help To Repairing Hardware Computer,Help to Coordinating events'
+      ]
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Sales Marketing Positions",
+      company: "PT Bank Mandiri Tbk.",
+      companylogo: require("./assets/images/Mandiri.png"),
+      date: "January 2020 – September 2020",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "sellers of cash loan products/services specifically for micro-entrepreneurs, Check Report Customer payloan,"
     }
   ]
 };
@@ -196,34 +199,33 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Logo.png"),
+      projectName: "Soka",
+      projectDesc: "SOKA is an application to reach the peak of your health in playing soccer by avoiding all the failures of playing soccer due to the unavailability of soccer field rentals",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "https://sokaweb.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: ""
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Nextu",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: ""
+    //     }
+    //   ]
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -277,7 +279,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: ""
@@ -290,28 +292,28 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
-  blogs: [
-    {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   blogs: [
+//     {
+//       url:
+//         "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
@@ -349,15 +351,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+62 859 2605 1064",
+  email_address: "contact@tedd.ferdy.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
@@ -366,12 +368,12 @@ export {
   socialMediaLinks,
   skillsSection,
   educationInfo,
-  techStack,
+  // techStack,
   workExperiences,
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
+  // blogSection,
   talkSection,
   podcastSection,
   contactInfo,
