@@ -207,23 +207,23 @@ const bigProjects = {
       projectDesc: "SOKA is an application to reach the peak of your health in playing soccer by avoiding all the failures of playing soccer due to the unavailability of soccer field rentals",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Soka Website",
           url: "https://sokaweb.netlify.app/"
-        }
+        },
         //  you can add extra buttons here.
       ]
     },
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: ""
-    //     }
-    //   ]
-    // }
+    {
+      image: require("./assets/images/SlackLogo.png"),
+      projectName: "Slack Clone App",
+      projectDesc: "Making slack clone app on react challenge 5 days by Clever Programmer",
+      footerLink: [
+        {
+          name: "Visit Slack Clone",
+          url: "https://slackcloneweb.netlify.app/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
