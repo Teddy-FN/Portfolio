@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Front end Software Developer 🚀 having an experience of designing and building Web applications with JavaScript / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-ccJUqZ8VAZAZ8t__nTwcfrDs3Jzuzye/view?usp=sharing",
+    "https://drive.google.com/file/d/1eIaGDIhR40AN51QKAF0oemY01MgAi7_h/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -60,6 +60,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
+      skillName: "Sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "Vue.js",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -72,7 +80,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-free-code-camp"
     },
     {
-      skillName: "reactjs",
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -153,6 +161,17 @@ const workExperiences = {
   experience: [
     {
       role: "Front End Developer",
+      company: "PT. Majapahit",
+      companylogo: require("./assets/images/majapahit.png"),
+      date: "April, 2021 - Present",
+      desc:
+        'Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission - Risk-Based Approach (OSS RBA). Includes verifikator login UMK and non-UMK.',
+      descBullets: [
+        'Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission'
+      ]
+    },
+    {
+      role: "Front End Developer",
       company: "Glints Academy",
       companylogo: require("./assets/images/GA.png"),
       date: "November, 2020 - February, 2021",
@@ -202,7 +221,7 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
-      image: require("./assets/images/Logo.png"),
+      image: require("./assets/images/soka-logo.png"),
       projectName: "Soka",
       projectDesc: "SOKA is an application to reach the peak of your health in playing soccer by avoiding all the failures of playing soccer due to the unavailability of soccer field rentals",
       footerLink: [
@@ -223,7 +242,45 @@ const bigProjects = {
           url: "https://slackcloneweb.netlify.app/"
         }
       ]
-    }
+    },
+
+    // EASY BANK CHALLENGE
+    {
+      image: require("./assets/images/logo-easy.svg"),
+      projectName: "Easy Bank - Frontend Mentors Challenge",
+      projectDesc: "Making EasyBank using HTML5, SASS, JavaScript by frontend mentors",
+      footerLink: [
+        {
+          name: "Visit Easy Bank",
+          url: "https://easybankchlnge.netlify.app/"
+        }
+      ]
+    },
+    // OSS RBA
+    {
+      image: require("./assets/images/LOGO_OSS_NEW.png"),
+      projectName: "OSS RBA (Online Single Submission)",
+      projectDesc: "Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission - Risk-Based Approach (OSS RBA).",
+      footerLink: [
+        {
+          name: "Visit OSS RBA",
+          url: "https://oss.go.id/"
+        }
+      ]
+    },
+    // OMNIFOOD
+    {
+      image: require("./assets/images/logo.png"),
+      projectName: "Omnifood - (Udemy Project)",
+      projectDesc: "Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission - Risk-Based Approach (OSS RBA).",
+      footerLink: [
+        {
+          name: "Visit Omnifood",
+          url: "https://omnifood-websites.netlify.app/"
+        }
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
