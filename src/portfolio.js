@@ -110,7 +110,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Glints Academy",
-      logo: require("./assets/images/GA.png"),
+      logo: require("../src/assets/images/GA.png"),
       subHeader: "Front End Developer",
       duration: "November 2020 - February 2021",
       desc: "Activities and Societies: learn built some apps and website",
@@ -126,7 +126,7 @@ const educationInfo = {
     },
     {
       schoolName: "Academy Technology Warga Surakarta",
-      logo: require("./assets/images/ATW.png"),
+      logo: require("../src/assets/images/ATW.png"),
       subHeader: "Associate Degree of Mechanical Industry",
       duration: "September 2016 - November 2019",
     }
@@ -162,7 +162,7 @@ const workExperiences = {
     {
       role: "Front End Developer",
       company: "PT. Majapahit",
-      companylogo: require("./assets/images/majapahit.png"),
+      companylogo: require("../src/assets/images/majapahit.png"),
       date: "April, 2021 - Present",
       desc:
         'Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission - Risk-Based Approach (OSS RBA). Includes verifikator login UMK and non-UMK.',
@@ -173,7 +173,7 @@ const workExperiences = {
     {
       role: "Front End Developer",
       company: "Glints Academy",
-      companylogo: require("./assets/images/GA.png"),
+      companylogo: require("../src/assets/images/GA.png"),
       date: "November, 2020 - February, 2021",
       desc:
         "Changing lives of developers one line of code at a time.",
@@ -186,7 +186,7 @@ const workExperiences = {
     {
       role: "Full Stack PHP Developer - (CodeIgniter)",
       company: "Rachacha Indonesia",
-      companylogo: require("./assets/images/Rachacha.png"),
+      companylogo: require("../src/assets/images/Rachacha.png"),
       date: "October 2020 – November 2020",
       descBullets: [
         'Colaborating some team Programmer.',
@@ -197,7 +197,7 @@ const workExperiences = {
     {
       role: "Sales Marketing Positions",
       company: "PT Bank Mandiri Tbk.",
-      companylogo: require("./assets/images/Mandiri.png"),
+      companylogo: require("../src/assets/images/Mandiri.png"),
       date: "January 2020 – September 2020",
       desc:
         "sellers of cash loan products/services specifically for micro-entrepreneurs, Check Report Customer payloan,"
@@ -221,7 +221,7 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
-      image: require("./assets/images/soka-logo.png"),
+      image: require("../src/assets/images/soka-logo.png"),
       projectName: "Soka",
       projectDesc: "SOKA is an application to reach the peak of your health in playing soccer by avoiding all the failures of playing soccer due to the unavailability of soccer field rentals",
       footerLink: [
@@ -233,7 +233,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/SlackLogo.png"),
+      image: require("../src/assets/images/SlackLogo.png"),
       projectName: "Slack Clone App",
       projectDesc: "Making slack clone app on react challenge 5 days by Clever Programmer",
       footerLink: [
@@ -246,7 +246,7 @@ const bigProjects = {
 
     // EASY BANK CHALLENGE
     {
-      image: require("./assets/images/logo-easy.svg"),
+      image: require("../src/assets/images/logo-easy.svg"),
       projectName: "Easy Bank - Frontend Mentors Challenge",
       projectDesc: "Making EasyBank using HTML5, SASS, JavaScript by frontend mentors",
       footerLink: [
@@ -258,7 +258,7 @@ const bigProjects = {
     },
     // OSS RBA
     {
-      image: require("./assets/images/LOGO_OSS_NEW.png"),
+      image: require("../src/assets/images/LOGO_OSS_NEW.png"),
       projectName: "OSS RBA (Online Single Submission)",
       projectDesc: "Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission - Risk-Based Approach (OSS RBA).",
       footerLink: [
@@ -270,7 +270,7 @@ const bigProjects = {
     },
     // OMNIFOOD
     {
-      image: require("./assets/images/logo.png"),
+      image: require("../src/assets/images/logo.png"),
       projectName: "Omnifood - (Udemy Project)",
       projectDesc: "Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission - Risk-Based Approach (OSS RBA).",
       footerLink: [
@@ -298,7 +298,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("../src/assets/images/codeInLogo.webp"),
       footerLink: [
         {
           name: "Certification",
@@ -321,7 +321,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("../src/assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -334,7 +334,7 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("../src/assets/images/pwaLogo.webp"),
       footerLink: [
         { name: "Certification", url: "" },
         {
