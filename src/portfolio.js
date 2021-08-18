@@ -270,7 +270,7 @@ const bigProjects = {
     },
     // OMNIFOOD
     {
-      image: require("../src/assets/images/logo.png"),
+      image: require("../src/assets/images/logo-omnifood.png"),
       projectName: "Omnifood - (Udemy Project)",
       projectDesc: "Created a web application system on a subsystem intended for licensing in business and facilities for doing business based on the Online Single Submission - Risk-Based Approach (OSS RBA).",
       footerLink: [
